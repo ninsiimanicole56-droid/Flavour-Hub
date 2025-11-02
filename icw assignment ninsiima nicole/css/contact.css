@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background:white;
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+}
+.logo a{
+    display: flex;
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.banner{
+    display: flex;
+    width: 100%;
+}
+.banner div{
+    width: 50%;
+}
+.banner img{
+    width: 98%;
+    border-radius: 15px;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: cadetblue;
+}
+.last{
+    display: flex;
+}
+.last div{
+    width: 50%;
+}
+.pp{
+    text-align: center;
+    color: cadetblue;
+    }
+    input{
+        display: block;
+        padding: 5px;
+        margin: 15px ;
+        border-radius: 5px;
+        width: 50%;
+    }
+.Address h3{
+color: cadetblue;
+}
+
+footer,footer h4,footer p {
+    background:cadetblue;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+@media (max-width:500px){
+    .banner{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .input{
+        width: 70%;
+    }
+
+}
